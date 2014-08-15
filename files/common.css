@@ -8,74 +8,6 @@
 	padding: 0;
 	width: 960px;
 }
-#topbar {
-	margin: 0;
-	padding: 0;
-	background: transparent url("../img/bg/topbar.png") repeat;
-	height: 40px;
-	font-size: 14px;
-	line-height: 14px;
-	box-shadow: 0px 0px 2px #000;
-}
-#topbar-logo {
-	float: left;
-	padding-top: 4px;
-}
-#topbar-navi {
-	float: left;
-}
-#topbar-login-navi {
-	float: right;
-}
-
-#topbar ul {
-	margin: 0;
-	padding: 0;
-	display: block;
-	list-style: none;
-}
-#topbar ul li {
-	float: left;
-	margin: 0;
-	padding: 0;
-	z-index: 999;
-}
-#topbar ul li a {
-	display: block;
-	margin: 0;
-	padding: 13px 10px;
-	color: #fff;
-	text-decoration: none;
-}
-#topbar ul li a:hover {
-	background-color: #eee !important;
-	color: #555;
-}
-#topbar ul ul{
-	display: none;
-	position: absolute;
-	top: 100%;
-	right: 0;
-	background: transparent url("../img/bg/topbar.png") repeat;
-	border-left: 1px solid #555;
-	border-right: 1px solid #555;
-	border-bottom: 1px solid #555;
-	box-shadow: 2px 2px 2px #aaa;
-}
-#topbar li li {
-	clear: both;
-	width: 100%;
-	white-space: nowrap;
-}
-#topbar li li a {
-	padding: 13px 10px;
-}
-#topbar li:hover {
-	position: relative;
-}
-#topbar li:hover > ul {
-	display: block;
-}
 
 /*-----------------------------------------
 // タブ
@@ -236,92 +168,92 @@ ul.d-list li {
 // アイコン
 -----------------------------------------*/
 #h-profile {
-	background-image: url("http://twpf.jp/img/profile/profile.png");
+	background-image: url("../img/profile/profile.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-screen-name {
-	background-image: url("http://twpf.jp/img/profile/screen-name.png");
+	background-image: url("../img/profile/screen-name.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-name {
-	background-image: url("http://twpf.jp/img/profile/name.png");
+	background-image: url("../img/profile/name.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-location {
-	background-image: url("http://twpf.jp/img/profile/location.png");
+	background-image: url("../img/profile/location.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-web {
-	background-image: url("http://twpf.jp/img/profile/web.png");
+	background-image: url("../img/profile/web.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-count {
-	background-image: url("http://twpf.jp/img/profile/count.png");
+	background-image: url("../img/profile/count.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-date {
-	background-image: url("http://twpf.jp/img/profile/date.png");
+	background-image: url("../img/profile/date.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-description {
-	background-image: url("http://twpf.jp/img/profile/description.png");
+	background-image: url("../img/profile/description.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-motto {
-	background-image: url("http://twpf.jp/img/profile/motto.png");
+	background-image: url("../img/profile/motto.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-personal {
-	background-image: url("http://twpf.jp/img/profile/personal.png");
+	background-image: url("../img/profile/personal.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-like {
-	background-image: url("http://twpf.jp/img/profile/like.png");
+	background-image: url("../img/profile/like.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-dislike {
-	background-image: url("http://twpf.jp/img/profile/dislike.png");
+	background-image: url("../img/profile/dislike.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-free {
-	background-image: url("http://twpf.jp/img/profile/free.png");
+	background-image: url("../img/profile/free.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-tweet {
-	background-image: url("http://twpf.jp/img/profile/tweet.png");
+	background-image: url("../img/profile/tweet.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-feed {
-	background-image: url("http://twpf.jp/img/profile/feed.png");
+	background-image: url("../img/profile/feed.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-check {
-	background-image: url("http://twpf.jp/img/profile/check.png");
+	background-image: url("../img/profile/check.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-delete {
-	background-image: url("http://twpf.jp/img/profile/delete.png");
+	background-image: url("../img/profile/delete.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
 #h-cancel {
-	background-image: url("http://twpf.jp/img/profile/cancel.png");
+	background-image: url("../img/profile/cancel.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 }
