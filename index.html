@@ -101,23 +101,19 @@ try //Internet Explorer
 			xmlhttp.open("GET", "last_order__b.xml", false);
 			xmlhttp.setRequestHeader('Content-Type', 'text/xml');
 			xmlhttp.send("");
-			xmlDoc = xmlhttp.responseXML;
+			xmlDoc = $.parseXML(xmlhttp.responseText);
 		} catch (e) {
 			alert(e.message);
 		}
 	}
 	try {
-		$('#twitter_pic').html(xmlDoc.getElementsByTagName("twitter_pic")[0].childNodes[0].nodeValue);
-		$('#twitter_name').html(xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue);
-		$('#twitter_location').html(xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue);
-		$('#twitter_link').html(xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue);
-		$('#twitter_description').html(xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue);
-		$('#twitter_detailed_description').html(xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue);
-		//document.getElementById("twitter_name").innerHTML=xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue;
-		//document.getElementById("twitter_location").innerHTML=xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue;
-		//document.getElementById("twitter_link").innerHTML=xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue;
-		//document.getElementById("twitter_description").innerHTML=xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue;
-		//document.getElementById("twitter_detailed_description").innerHTML=xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue;
+		$xml = $(xmlDoc);
+		$('#twitter_pic').html($xml.find("twitter_pic").text());
+		$('#twitter_name').html($xml.find("twitter_name").text());
+		$('#twitter_location').html($xml.find("twitter_location").text());
+		$('#twitter_link').html($xml.find("twitter_link").text());
+		$('#twitter_description').html($xml.find("twitter_description").text());
+		$('#twitter_detailed_description').html($xml.find("twitter_detailed_description").text());
 	} catch (e) {
 		alert(e.message);
 	}
