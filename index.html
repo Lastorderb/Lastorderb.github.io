@@ -39,46 +39,6 @@
 		}
 		#container a { color: #0084B4 !important; }
 	</style>
-	
-	<script type="text/javascript">
-	function parseXML()
-	{
-	//http://stackoverflow.com/questions/18442167/how-to-read-xml-file-using-javascript-in-chrome-only
-	try //Internet Explorer
-		{
-			xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-		} catch (e) {
-			try //Firefox, Mozilla, Opera, etc.
-			{
-				var xmlhttp = new XMLHttpRequest();
-				xmlhttp.open("GET", "last_order__b.xml", false);
-				xmlhttp.setRequestHeader('Content-Type', 'text/xml');
-				xmlhttp.send("");
-				xmlDoc = xmlhttp.responseXML;
-			} catch (e) {
-				alert(e.message);
-			}
-		}
-		try {
-			$('#twitter_pic').html(xmlDoc.getElementsByTagName("twitter_pic")[0].childNodes[0].nodeValue);
-			$('#twitter_name').html(xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue);
-			$('#twitter_location').html(xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue);
-			$('#twitter_link').html(xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue);
-			$('#twitter_description').html(xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue);
-			$('#twitter_detailed_description').html(xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue);
-			//document.getElementById("twitter_name").innerHTML=xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue;
-			//document.getElementById("twitter_location").innerHTML=xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue;
-			//document.getElementById("twitter_link").innerHTML=xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue;
-			//document.getElementById("twitter_description").innerHTML=xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue;
-			//document.getElementById("twitter_detailed_description").innerHTML=xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue;
-		} catch (e) {
-			alert(e.message);
-		}
-		return (null);
-	}
-
-	</script>
-
 </head>
 <body>
 <div id="container">
@@ -128,6 +88,41 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+//http://stackoverflow.com/questions/18442167/how-to-read-xml-file-using-javascript-in-chrome-only
+try //Internet Explorer
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	} catch (e) {
+		try //Firefox, Mozilla, Opera, etc.
+		{
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "last_order__b.xml", false);
+			xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+			xmlhttp.send("");
+			xmlDoc = xmlhttp.responseXML;
+		} catch (e) {
+			alert(e.message);
+		}
+	}
+	try {
+		$('#twitter_pic').html(xmlDoc.getElementsByTagName("twitter_pic")[0].childNodes[0].nodeValue);
+		$('#twitter_name').html(xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue);
+		$('#twitter_location').html(xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue);
+		$('#twitter_link').html(xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue);
+		$('#twitter_description').html(xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue);
+		$('#twitter_detailed_description').html(xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue);
+		//document.getElementById("twitter_name").innerHTML=xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue;
+		//document.getElementById("twitter_location").innerHTML=xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue;
+		//document.getElementById("twitter_link").innerHTML=xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue;
+		//document.getElementById("twitter_description").innerHTML=xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue;
+		//document.getElementById("twitter_detailed_description").innerHTML=xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue;
+	} catch (e) {
+		alert(e.message);
+	}
+
+</script>
 
 <div id="footer">
 	<p>© 2010-2014 <a href="http://twpf.jp/">ツイフィール</a></p>
