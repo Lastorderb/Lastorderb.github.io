@@ -28,6 +28,8 @@
 	<script type="text/javascript" src="./files/jquery.laquu.custom.js"></script>
 	<script type="text/javascript" src="./files/style_default.js"></script -->
 	
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	<style type="text/css">
 		body {
 			background-image: url("https://abs.twimg.com/images/themes/theme1/bg.png");
@@ -58,12 +60,17 @@
 			}
 		}
 		try {
-			document.getElementById("twitter_pic").innerHTML=xmlDoc.getElementsByTagName("twitter_pic")[0].childNodes[0].nodeValue;
-			document.getElementById("twitter_name").innerHTML=xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue;
-			document.getElementById("twitter_location").innerHTML=xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue;
-			document.getElementById("twitter_link").innerHTML=xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue;
-			document.getElementById("twitter_description").innerHTML=xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue;
-			document.getElementById("twitter_detailed_description").innerHTML=xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue;
+			$('#twitter_pic').html(xmlDoc.getElementsByTagName("twitter_pic")[0].childNodes[0].nodeValue);
+			$('#twitter_name').html(xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue);
+			$('#twitter_location').html(xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue);
+			$('#twitter_link').html(xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue);
+			$('#twitter_description').html(xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue);
+			$('#twitter_detailed_description').html(xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue);
+			//document.getElementById("twitter_name").innerHTML=xmlDoc.getElementsByTagName("twitter_name")[0].childNodes[0].nodeValue;
+			//document.getElementById("twitter_location").innerHTML=xmlDoc.getElementsByTagName("twitter_location")[0].childNodes[0].nodeValue;
+			//document.getElementById("twitter_link").innerHTML=xmlDoc.getElementsByTagName("twitter_link")[0].childNodes[0].nodeValue;
+			//document.getElementById("twitter_description").innerHTML=xmlDoc.getElementsByTagName("twitter_description")[0].childNodes[0].nodeValue;
+			//document.getElementById("twitter_detailed_description").innerHTML=xmlDoc.getElementsByTagName("twitter_detailed_description")[0].childNodes[0].nodeValue;
 		} catch (e) {
 			alert(e.message);
 		}
