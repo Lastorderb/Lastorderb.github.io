@@ -91,21 +91,17 @@
 
 <script type="text/javascript">
 //http://stackoverflow.com/questions/18442167/how-to-read-xml-file-using-javascript-in-chrome-only
-try //Internet Explorer
+	try //Firefox, Mozilla, Opera, etc.
 	{
-		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", "last_order__b.xml", false);
+		xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+		xmlhttp.send("");
+		xmlDoc = $.parseXML(xmlhttp.responseText);
 	} catch (e) {
-		try //Firefox, Mozilla, Opera, etc.
-		{
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("GET", "last_order__b.xml", false);
-			xmlhttp.setRequestHeader('Content-Type', 'text/xml');
-			xmlhttp.send("");
-			xmlDoc = $.parseXML(xmlhttp.responseText);
-		} catch (e) {
-			alert(e.message);
-		}
+		alert(e.message);
 	}
+
 	try {
 		$xml = $(xmlDoc);
 		$('#twitter_pic').html($xml.find("twitter_pic").text());
