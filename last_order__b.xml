@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <twitter>
-<twitter_id>@Last_order__b</twitter_id>
-<twitter_pic><img width="128" height="128" src="https://pbs.twimg.com/profile_images/499470679037599745/8E3sIhCl.png" alt="Last_order__b"></twitter_pic>
-<twitter_name>라스트 오더(최종신호)</twitter_name>
-<twitter_location>그 사람의 옆!</twitter_location>
-<twitter_link><a href="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" title="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" target="_blank" rel="nofollow">http://yjsoft.pe.kr/Last_order__rpa/autotwits.php</a></twitter_link>
-<twitter_description>레벨 3 레디오 노이즈(전기결함)/반자동봇/타장르,크로스오버 선멘맞팔,일반자캐봇X(어마금O)/관글확인 필수!/현재 반자동(DB 191개)/멘션DM 지적 환영/DM후 멘션필수/멘션후 맞팔</twitter_description>
-<twitter_detailed_description>===========기본적인 소개===========<br>
+<twitter_id><![CDATA[@Last_order__b]]></twitter_id>
+<twitter_pic><![CDATA[<img width="128" height="128" src="https://pbs.twimg.com/profile_images/499470679037599745/8E3sIhCl.png" alt="Last_order__b">]]></twitter_pic>
+<twitter_name><![CDATA[라스트 오더(최종신호)]]></twitter_name>
+<twitter_location><![CDATA[그 사람의 옆!]]></twitter_location>
+<twitter_link><![CDATA[<a href="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" title="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" target="_blank" rel="nofollow">http://yjsoft.pe.kr/Last_order__rpa/autotwits.php</a>]]></twitter_link>
+<twitter_description><![CDATA[레벨 3 레디오 노이즈(전기결함)/반자동봇/타장르,크로스오버 선멘맞팔,일반자캐봇X(어마금O)/관글확인 필수!/현재 반자동(DB 191개)/멘션DM 지적 환영/DM후 멘션필수/멘션후 맞팔]]></twitter_description>
+<twitter_detailed_description><![CDATA[===========기본적인 소개===========<br>
 "어떤 마술의 금서목록"이란 작품에 등장하는 "라스트 오더"란 캐릭터의 봇 계정입니다.<br>
 캐릭터에 대한 설명은 다음 링크로 대체합니다.<br>
 <a href="http://www.rigvedawiki.net/r1/wiki.php/%EB%9D%BC%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8D%94%28%EC%96%B4%EB%96%A4%20%EB%A7%88%EC%88%A0%EC%9D%98%20%EA%B8%88%EC%84%9C%EB%AA%A9%EB%A1%9D%29">http://www.rigvedawiki.net/r1/wiki.php/%EB%9D%BC%EC%8A%A4%ED%8A%B8%20%EC%98%A4%EB%8D%94%28%EC%96%B4%EB%96%A4%20%EB%A7%88%EC%88%A0%EC%9D%98%20%EA%B8%88%EC%84%9C%EB%AA%A9%EB%A1%9D%29</a><br>
@@ -26,5 +26,5 @@
 <br>
 멘션에 #라스트오더에게_인사_현재월일 이라고 넣지 않으시면 이 링크를 읽지 않으신 분을 간주하고 맞팔 해드리지 않겠습니다.<br>
 <br>
-예를 들어 현재 날짜가 8월 25일일 경우 #라스트오더에게_인사_825 를 포함시켜 멘션주시면 되겠습니다.</twitter_detailed_description> 
+예를 들어 현재 날짜가 8월 25일일 경우 #라스트오더에게_인사_825 를 포함시켜 멘션주시면 되겠습니다.]]></twitter_detailed_description> 
 </twitter>
