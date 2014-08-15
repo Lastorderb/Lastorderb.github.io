@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #fff url("http://twpf.jp/img/bg/smart-background.gif") repeat 0 0;
+	background: #fff url("../img/bg/smart-background.gif") repeat 0 0;
 	color: #444;
 	font-size: 14px;
 	line-height: 1.4em;
@@ -93,7 +93,7 @@ a:hover {
 
 ul.list {
 	padding: 0 0 0 0;
-	list-style: url("http://twpf.jp/img/list-sora.gif") outside;
+	list-style: url("../img/list-sora.gif") outside;
 }
 ul.list li {
 	margin: 8px 0 8px 20px;
@@ -130,7 +130,7 @@ ul.footernavi li div {
 }
 ul.footernavi li a {
 	display: block;
-	background: url("http://twpf.jp/img/list-sora.gif") no-repeat right center;
+	background: url("../img/list-sora.gif") no-repeat right center;
 	text-decoration: none;
 }
 ul.footernavi li:hover, ul.footernavi li:active {
@@ -249,7 +249,7 @@ a.sub-button:hover, a.sub-button:active {
 ul.feed {
 	margin: 0;
 	padding: 0;
-	list-style: url("http://twpf.jp/img/list-black.gif") inside;
+	list-style: url("../img/list-black.gif") inside;
 }
 
 ul.feed li {
@@ -330,13 +330,13 @@ ul.feed li {
 	display: block;
 	padding: 10px;
 	border: 1px solid #ddd;
-	background: #fcfcfc url("http://twpf.jp/img/bg/button.png") repeat;
+	background: #fcfcfc url("../img/bg/button.png") repeat;
 	text-decoration: none;
 	border-radius: 6px;
 }
 .paging a:hover {
 	border: 1px solid #ccc;
-	background: #fcfcfc url("http://twpf.jp/img/bg/button-gover.png") repeat;
+	background: #fcfcfc url("../img/bg/button-gover.png") repeat;
 }
 
 
@@ -361,7 +361,7 @@ ul.tagCloud li a {
 	font-size: 1em;
 	line-height: 1em;
 	border: 1px solid #eee;
-	background: #fcfcfc url("http://twpf.jp/img/bg/button.png") repeat-x;
+	background: #fcfcfc url("../img/bg/button.png") repeat-x;
 	color: #007de0;
 	text-decoration: none;
 	white-space: nowrap;
@@ -388,7 +388,7 @@ ul.tagCloud li.freedom_tag a {
 ul.tagCloud li a:hover {
 	background-image: none;
 	color: #007de0;
-	background: #fcfcfc url("http://twpf.jp/img/bg/button-hover.png") repeat-x;
+	background: #fcfcfc url("../img/bg/button-hover.png") repeat-x;
 }
 
 /*-----------------------------------------
@@ -425,109 +425,109 @@ ul.tagCloud li a:hover {
 // アイコン
 -----------------------------------------*/
 #h-profile {
-	background-image: url("http://twpf.jp/img/profile/profile.png");
+	background-image: url("../img/profile/profile.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-screen-name {
-	background-image: url("http://twpf.jp/img/profile/screen-name.png");
+	background-image: url("../img/profile/screen-name.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-name {
-	background-image: url("http://twpf.jp/img/profile/name.png");
+	background-image: url("../img/profile/name.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-location {
-	background-image: url("http://twpf.jp/img/profile/location.png");
+	background-image: url("../img/profile/location.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-web {
-	background-image: url("http://twpf.jp/img/profile/web.png");
+	background-image: url("../img/profile/web.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-count {
-	background-image: url("http://twpf.jp/img/profile/count.png");
+	background-image: url("../img/profile/count.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-date {
-	background-image: url("http://twpf.jp/img/profile/date.png");
+	background-image: url("../img/profile/date.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-description {
-	background-image: url("http://twpf.jp/img/profile/description.png");
+	background-image: url("../img/profile/description.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-motto {
-	background-image: url("http://twpf.jp/img/profile/motto.png");
+	background-image: url("../img/profile/motto.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-personal {
-	background-image: url("http://twpf.jp/img/profile/personal.png");
+	background-image: url("../img/profile/personal.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-like {
-	background-image: url("http://twpf.jp/img/profile/like.png");
+	background-image: url("../img/profile/like.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-dislike {
-	background-image: url("http://twpf.jp/img/profile/dislike.png");
+	background-image: url("../img/profile/dislike.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-free {
-	background-image: url("http://twpf.jp/img/profile/free.png");
+	background-image: url("../img/profile/free.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-tweet {
-	background-image: url("http://twpf.jp/img/profile/tweet.png");
+	background-image: url("../img/profile/tweet.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-feed {
-	background-image: url("http://twpf.jp/img/profile/feed.png");
+	background-image: url("../img/profile/feed.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-check {
-	background-image: url("http://twpf.jp/img/profile/check.png");
+	background-image: url("../img/profile/check.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-delete {
-	background-image: url("http://twpf.jp/img/profile/delete.png");
+	background-image: url("../img/profile/delete.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
 }
 #h-cancel {
-	background-image: url("http://twpf.jp/img/profile/cancel.png");
+	background-image: url("../img/profile/cancel.png");
 	background-repeat: no-repeat;
 	background-position: 5px center;
 	padding-left: 25px;
