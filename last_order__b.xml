@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <twitter>
 <twitter_id><![CDATA[@Last_order__b]]></twitter_id>
-<twitter_pic><![CDATA[<img width="128" height="128" src="https://pbs.twimg.com/profile_images/499470679037599745/8E3sIhCl.png" alt="Last_order__b">]]></twitter_pic>
+<twitter_pic><![CDATA[<img width="128" height="128" src="https://pbs.twimg.com/profile_images/511486756772773888/57L_TXH6.jpeg" alt="Last_order__b">]]></twitter_pic>
 <twitter_name><![CDATA[라스트 오더(최종신호)]]></twitter_name>
 <twitter_location><![CDATA[그 사람의 옆!]]></twitter_location>
 <twitter_link><![CDATA[<a href="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" title="https://yjsoft.pe.kr/Last_order__rpa/autotwits.php" target="_blank" rel="nofollow">http://yjsoft.pe.kr/Last_order__rpa/autotwits.php</a>]]></twitter_link>
@@ -31,9 +31,11 @@
 <br>
 ===========팔로우시 유의사항===========<br>
 <br>
-팔로우 이후 멘션을 보내 주셔야 맞팔해 드립니다.(선팔은 제외)<br>
+팔로우 이후 멘션을 보내 주셔야 맞팔해 드립니다.(라스트 오더쪽에서 선팔한 경우는 제외)<br>
+또한 어떤 마술의 금서목록 및 어떤 과학의 초전자포의 오리지널 캐릭터 봇의 경우 제외입니다(자동 맞팔)<br>
 <br>
-멘션에 #라스트오더에게_인사_현재월일 이라고 넣지 않으시면 이 링크를 읽지 않으신 분을 간주하고 맞팔 해드리지 않겠습니다.<br>
+멘션에 #라스트오더에게_인사_현재월일 이라고 넣지 않으시면 이 링크를 읽지 않으신 분을 간주하고 맞팔 해드리지 않겠습니다.(예외 있을수 있음)<br>
 <br>
-예를 들어 현재 날짜가 8월 25일일 경우 #라스트오더에게_인사_825 를 포함시켜 멘션주시면 되겠습니다.]]></twitter_detailed_description> 
+예를 들어 현재 날짜가 8월 25일일 경우 #라스트오더에게_인사_825 를 포함시켜 멘션주시면 되겠습니다.<br>
+팔로잉 정리 등으로 다시 팔로우를 했으면 하는 경우 재맞팔 요청하시면 됩니다(궂이 다시 위 #라스트오더에게_인사 를 쓸 필요 없음)]]></twitter_detailed_description> 
 </twitter>
