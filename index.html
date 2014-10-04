@@ -94,7 +94,7 @@
 	try //Firefox, Mozilla, Opera, etc.
 	{
 		var xmlhttp = new XMLHttpRequest();
-		xmlhttp.open("GET", "last_order__b.xml?ver=2", false);
+		xmlhttp.open("GET", "last_order__b.xml?ver=3", false);
 		xmlhttp.setRequestHeader('Content-Type', 'text/xml');
 		xmlhttp.send("");
 		xmlDoc = $.parseXML(xmlhttp.responseText);
